@@ -1,0 +1,170 @@
+/*Estils per a tota la pagina*/
+*{
+    font-family: serif, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #fffb00;
+    align-items: center;
+    justify-content: center;
+}
+/*Estils per la apartat que esta en blanc, tot el que es en blanc */
+.pag_contingut{
+    background-color: rgb(241, 241, 241);
+    width: 80%;
+    height: 100%;
+    margin-left: 10.5%;
+    align-items: center;
+    justify-content: center;
+}
+/*Estils per al logo*/
+.background_top{
+    background-color: rgb(105, 105, 105);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_top{
+    padding: 5px;
+    width: 200px;
+}
+
+/*Estils per a la barra de navegasció*/
+.menu{
+    background-color: rgb(105, 105, 105);
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 1px 0px;
+}
+.menu ul {
+    text-align: center;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 183, 0);
+    padding: 10px 5px;
+}
+.menu ul li a:hover {
+    color: #fffb00;
+}
+
+/*Estils per al text*/
+h1{
+    margin: 15px 20px;
+    color: rgb(25, 96, 164);
+    font-size: 30px;
+}
+h2{
+    margin: 15px 20px;
+    font-size: 20px;
+
+}
+dt{
+    margin: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+dd{
+    margin-bottom: 5px;
+    margin-right: 30px;
+    text-align: justify;
+}
+p{
+    margin: 15px 20px;
+    text-align: justify;
+}
+.bold_paragraf{
+    font-weight: bold;
+}
+
+.data{
+    margin: 0px 15px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 15px 0px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.link_parag{
+    color: #d5ab00;
+}
+.title_arcs{
+    color: rgb(42, 137, 226);
+    margin-left: 50px;
+    font-size: 18px;
+}
+.saga{
+    margin-left: 60px;
+}
+.saberMes{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.saberMes_1{
+    background-color: #696969;
+    color: #dda625;
+    padding: 2px 30px;
+    text-decoration: none;
+}
+.saberMes_1 a:hover{
+    color: #ffffff;
+    
+}
+
+/*Estils imatges*/
+.img_1{
+    width: 450px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.img_1_1{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_personatges{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img_personatges_1{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img_arcs{
+    width: 60%;
+    float: right;
+
+}
+.img_arcs_1{
+    margin: 0;
+    margin-right: 5%;
+    margin-left: 20px;
+}
+.icon{
+    width: 15px;
+}
+/*Estils footer*/
+footer{
+    background-color: blueviolet;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
