@@ -41,40 +41,52 @@ nav ul li a {
     font-weight: bold;
     padding: 5px 10px;
 }
+nav ul li a:hover {
+    color: #ff1500;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
 
 /* Contingut principal */
 .contenido {
-    position: relative;
-    text-align: center;
     color: #000000;
-}
-
-.imagen-fondo {
-    width: 100%;
-    height: auto;
+    background-image: url("../img/casa_encantada.jpg");
+    margin: 0;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .texto-sobre-imagen {
-    position: absolute;
-    margin-left: 20%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    color: #4f772d;
-    font-size: 2em;
-    text-align: center;
+    color: red;
+    padding: 50px 40px;
+    font-size: 24px;
+}
+.title_2 {
+    color: blue;
+    margin-top: 20px;
+    font-size: 32px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.title_2 span {
+    color: #000000;
+    font-weight: normal;
 }
 
-.texto-sobre-imagen p {
-    font-size: 1.2em;
-    color: #4f772d;
+.title_3 {
+    margin-top: 20px;
+    margin-left: 10%;
 }
 
 /* Peu de pàgina */
 footer {
     background-color: #6b9738;
     color: rgb(0, 0, 0);
-    padding: 15px;
-    padding-left: 50px;
+
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
@@ -96,6 +108,8 @@ footer .cc-logo {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+
+    margin-bottom: 7%;
 }
 
 .tabla-precios thead {
@@ -138,6 +152,9 @@ footer .cc-logo {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+li{
+    list-style: none;
+}
 
 .formulario form {
     display: flex;
@@ -170,4 +187,9 @@ footer .cc-logo {
 
 .formulario button:hover {
     background-color: #3e5e21;
+}
+.text_footer {
+    padding-left: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
