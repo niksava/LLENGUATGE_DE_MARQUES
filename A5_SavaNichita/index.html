@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="/img/logo_text.png" alt="">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="index2.html">Portfolio</a></li>
+                <li><a href="index3.html">Comptador</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenido">
+        <div class="texto-sobre-imagen">
+          <h1>Benvingut</h1>
+          <p>A la nostra pagina web de desenvolupament web</p>
+        </div>
+        <img src="img/foto_index.jpeg" alt="Paisatge rural" class="imagen_fondo" />
+      </main>
+
+      <script>
+        window.onload = function() {
+            const rellotge = document.getElementById("rellotge");
+            let inici = Date.now();
+
+            setInterval(function() {
+                let temps = Math.floor((Date.now() - inici) / 1000);
+                rellotge.innerText = `Temps en aquesta pàgina: ${temps} segons`;
+            }, 1000);
+        };
+    </script>
+
+    <div id="rellotge" style="position: fixed; bottom: 0; right: 0; padding: 10px; background: #000; color: #fff;"></div>
+    <script src="scripts.js" defer></script>
+      <footer>
+        <p>Activitat realitzada per <strong>Nichita Sava</strong></p>
+        <p>
+          Fotografies de la portada
+          <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+          <img
+            src="img/creative-commons.png"
+            alt="Llicència Creative Commons"
+            class="cc-logo"
+          />
+        </p>
+      </footer>
+
+</body>
+</html>

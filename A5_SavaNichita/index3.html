@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="/img/logo_text.png" alt="">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="index2.html">Portfolio</a></li>
+                <li><a href="index3.html">Comptador</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="seccio" onmouseover="mostrarParagraf()" onmouseout="amagarParagraf()">
+        <h2>Fica a damun el ratolli per a veure el text ocult</h2>
+        <p id="paragraf-ocult" style="display: none;">Aquest és un text ocult que es mostra en passar el ratolí.</p>
+    </div>
+
+    <h3>Formulari de Validació de Contrasenya</h3>
+    <form onsubmit="return validarContrasenya()">
+        <label for="pass1">Contrasenya:</label>
+        <input type="password" id="pass1" required><br><br>
+        <label for="pass2">Repeteix la Contrasenya:</label>
+        <input type="password" id="pass2" required><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+      <footer>
+        <p>Activitat realitzada per <strong>Nichita Sava</strong></p>
+        <p>
+          Fotografies de la portada
+          <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+          <img
+            src="img/creative-commons.png"
+            alt="Llicència Creative Commons"
+            class="cc-logo"
+          />
+        </p>
+      </footer>
+
+</body>
+</html>

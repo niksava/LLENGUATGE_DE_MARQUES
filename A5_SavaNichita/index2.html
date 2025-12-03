@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="/img/logo_text.png" alt="" />
+        </a>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="index2.html">Portfolio</a></li>
+          <li><a href="index3.html">Comptador</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Galeria d'Imatges</h1>
+    <div id="miniatures">
+      <img
+        src="/img/img1.jpg"
+        alt="Imatge 1"
+        onclick="mostrarImatgeGran('img1.jpg')"
+      />
+      <img
+        src="/img/img2.jpg"
+        alt="Imatge 2"
+        onclick="mostrarImatgeGran('img2.jpg')"
+      />
+      <img
+        src="/img/img3.jpg"
+        alt="Imatge 3"
+        onclick="mostrarImatgeGran('img3.jpg')"
+      />
+      <img
+        src="/img/img4.jpg"
+        alt="Imatge 4"
+        onclick="mostrarImatgeGran('img4.jpg')"
+      />
+      <img
+        src="/img/img5.jpg"
+        alt="Imatge 5"
+        onclick="mostrarImatgeGran('img5.jpg')"
+      />
+      <img
+        src="/img/img6.jpg"
+        alt="Imatge 6"
+        onclick="mostrarImatgeGran('img6.jpg')"
+      />
+    </div>
+
+    <div id="imatge-gran"></div>
+
+    <script>
+      function mostrarImatgeGran(imatge) {
+        document.getElementById("imatge-gran").innerHTML = `
+    <div class="modal">
+      <img src="/img/${imatge}" alt="Imatge Gran">
+      <button onclick="tancarImatgeGran()">Tanca</button>
+    </div>`;
+      }
+      function tancarImatgeGran() {
+        document.getElementById("imatge-gran").innerHTML = "";
+      }
+    </script>
+
+    <footer>
+      <p>Activitat realitzada per <strong>Nichita Sava</strong></p>
+      <p>
+        Fotografies de la portada
+        <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+        <img
+          src="img/creative-commons.png"
+          alt="Llicència Creative Commons"
+          class="cc-logo"
+        />
+      </p>
+    </footer>
+  </body>
+</html>
