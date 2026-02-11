@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cataleg>
+	<llibre id="bk101">
+		<autor>J.R.R. Tolkien</autor>
+		<titol>The Lord of the Rings</titol>
+		<preu>74.35</preu>
+		<publicacio>1954-07-29</publicacio>
+		<descripcio>
+			La història principal darrere de l'argument comença milers d'anys abans dels fets descrits a la novel·la,
+			amb l'ascens de l'anomenat Senyor dels Anells, el Senyor Fosc,
+			un esperit malevolent d'enorme poder i que governa el temut reialme de Mórdor.
+		</descripcio>
+	</llibre>
+	<llibre id="bk102">
+		<autor>Michael Ende</autor>
+		<titol>The NeverEnding Story</titol>
+		<preu>13.95</preu>
+		<publicacio>1979-01-01</publicacio>
+		<descripcio>
+			Fugint dels seus assetjadors, en Bastian arriba a una llibreria una mica especial on coneix el senyor Karl Konrad Koreander,
+			el llibreter, que en aquell moment llegeix un llibre que de seguida li crida l'atenció: La Història Interminable
+		</descripcio>
+	</llibre>
+	<llibre id="bk103">
+		<autor>Bram Stoker</autor>
+		<titol>Drácula</titol>
+		<preu>53.20</preu>
+		<publicacio>1897-05-26</publicacio>
+		<descripcio>
+			 Jonathan Harker, un joven abogado inglés de Londres comprometido con la joven
+			 y bellísima institutriz Wilhemina Murray (Mina) se encuentra en la ciudad de Bistritz
+			 y debe viajar a través del desfiladero del Borgo hasta el remoto castillo del conde Drácula.
+		</descripcio>
+	</llibre>
+</cataleg>

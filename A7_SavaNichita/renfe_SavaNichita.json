@@ -1,0 +1,71 @@
+{
+    "viatge": {
+        "consulta": {
+            "origen": "Tortosa",
+            "destinacio": "Tarragona",
+            "data": "06.11.2023",
+            "hora": "8:00",
+            "avis": {
+                "missatge": "Atenció: A partir del 29 d'octubew s'inicia la segona fase de les obres de dublicacio de via entre Parets del Vallès i la Garriga que modifiquem el serveu de linia R3."
+            }
+        },
+        "trens": {
+            "origen":"Tortosa",
+            "destinacio":"Tarragona",
+            "dia":"06.11.2023",
+            "temps_destinacio":"12:30",
+            "llistat_trens":[
+{
+          "id_tren": "R-1",
+          "sortida": "09:23",
+          "hora_arribada": "10:47",
+          "durada": "01:24"
+        },
+        {
+          "id_tren": "R-2",
+          "sortida": "11:32",
+          "hora_arribada": "12:50",
+          "durada": "01:18"
+        },
+        {
+          "id_tren": "R-3",
+          "sortida": "13:51",
+          "hora_arribada": "15:00",
+          "durada": "01:09"
+        },
+        {
+          "id_tren": "R-4",
+          "sortida": "15:37",
+          "hora_arribada": "16:56",
+          "durada": "01:19"
+        },
+        {
+          "id_tren": "R-5",
+          "sortida": "16:32",
+          "hora_arribada": "17:51",
+          "durada": "01:19"
+        },
+        {
+          "id_tren": "R-6",
+          "sortida": "18:30",
+          "hora_arribada": "19:51",
+          "durada": "01:21"
+        },
+        {
+          "id_tren": "R-7",
+          "sortida": "20:55",
+          "hora_arribada": "22:16",
+          "durada": "01:21"
+        }
+        ]
+      },
+      "tarifa":{
+        "servei_regional": {
+        "senzill": "8,05€",
+        "bono_expres": "57,5€",
+        "abonament_mensual": "148,0€",
+        "abonament_trimestral": "395,7€"
+        }
+    }
+}
+}
