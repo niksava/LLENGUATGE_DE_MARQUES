@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pressupost>
+    <client>
+        <nom>Anònim</nom>
+        <comentari>Necessito dos pressupostos per a un ordinador amb els components especificats.</comentari>
+    </client>
+    <opcions>
+        <pressupost id="1">
+            <component tipus="placa_base">
+                <nom>ASUS PRIME B450M-A</nom>
+                <preu>85.00</preu>
+            </component>
+            <component tipus="processador">
+                <nom>AMD Ryzen 5 5600X</nom>
+                <preu>230.00</preu>
+            </component>
+            <component tipus="memoria_ram">
+                <nom>Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz</nom>
+                <preu>90.00</preu>
+            </component>
+            <component tipus="disc_dur">
+                <nom>Samsung 970 EVO Plus 1TB NVMe</nom>
+                <preu>120.00</preu>
+            </component>
+            <component tipus="targeta_grafica">
+                <nom>MSI GeForce GTX 1660 Super</nom>
+                <preu>250.00</preu>
+            </component>
+            <component tipus="targeta_de_so">
+                <nom>Creative Sound Blaster Audigy FX</nom>
+                <preu>40.00</preu>
+            </component>
+            <total>815.00</total>
+        </pressupost>
+        <pressupost id="2">
+            <component tipus="placa_base">
+                <nom>Gigabyte B660M DS3H</nom>
+                <preu>120.00</preu>
+            </component>
+            <component tipus="processador">
+                <nom>Intel Core i5-12400F</nom>
+                <preu>190.00</preu>
+            </component>
+            <component tipus="memoria_ram">
+                <nom>Kingston FURY Beast 16GB (2x8GB) DDR4 3200MHz</nom>
+                <preu>85.00</preu>
+            </component>
+            <component tipus="disc_dur">
+                <nom>Western Digital Blue 1TB SATA</nom>
+                <preu>50.00</preu>
+            </component>
+            <component tipus="targeta_grafica">
+                <nom>ASUS TUF Gaming GeForce RTX 3060</nom>
+                <preu>400.00</preu>
+            </component>
+            <component tipus="targeta_de_so">
+                <nom>Asus Xonar SE</nom>
+                <preu>50.00</preu>
+            </component>
+            <total>895.00</total>
+        </pressupost>
+    </opcions>
+</pressupost>
