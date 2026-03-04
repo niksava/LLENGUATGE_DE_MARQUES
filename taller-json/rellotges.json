@@ -1,0 +1,116 @@
+{
+  "rellotges": [
+    {
+      "nom": "Emporio Armani Chronograph AR2434",
+      "codi": "AR2434",
+      "preu_actual": 102.30,
+      "pvp_recomanat": 349.00,
+      "informacio_general": {
+        "marca": "Emporio Armani",
+        "model": "AR2434",
+        "edicio": "Chronograph",
+        "genere": "Home",
+        "moviment": "Quars (Bateria)",
+        "resistencia_aigua": "50m Apte per dutxa"
+      },
+      "garantia": "24 mesos",
+      "mesures": {
+        "diametre": "43 mm",
+        "gruix": "14 mm"
+      },
+      "mes_informacio": {
+        "tipus": ["Estil esportiu", "De moda"],
+        "calendari": "Sí",
+        "funcions_especials": ["Cronògraf"]
+      },
+      "caixa_i_esfera": {
+        "color_caixa": "Platejat",
+        "color_esfera": "Negre",
+        "material_caixa": "Acer inoxidable",
+        "cristall": "Mineral",
+        "tipus_esfera": "Analògic",
+        "forma": "Rodona"
+      },
+      "corretja": {
+        "color": "Platejat",
+        "material": "Acer inoxidable",
+        "contorn_max_canell": "200mm"
+      }
+    },
+    {
+      "nom": "Casio Vintage A168WG-9EF",
+      "codi": "A168WG-9EF",
+      "preu_actual": 50.90,
+      "pvp_recomanat": 59.90,
+      "informacio_general": {
+        "marca": "Casio",
+        "model": "A168WG-9EF",
+        "edicio": "Vintage",
+        "genere": "Home",
+        "moviment": "Quars (Bateria)",
+        "resistencia_aigua": "30m Protecció humitat"
+      },
+      "garantia": "24 mesos",
+      "mesures": {
+        "diametre": "36,3 mm",
+        "gruix": "9,6 mm",
+        "pes": "51g"
+      },
+      "mes_informacio": {
+        "tipus": ["De moda", "Estil retro"],
+        "calendari": "Sí",
+        "funcions_especials": ["Cronògraf", "Alarma", "Il·luminació"]
+      },
+      "caixa_i_esfera": {
+        "color_caixa": "Daurat",
+        "color_esfera": "LCD",
+        "material_caixa": "Acer inox. - Plàstic",
+        "cristall": "Acrílic",
+        "tipus_esfera": "Digital",
+        "forma": "Quadrat"
+      },
+      "corretja": {
+        "color": "Daurat",
+        "material": "Acer inoxidable",
+        "contorn_max_canell": "195 mm"
+      }
+    },
+    {
+      "nom": "Tommy Hilfiger 1791788",
+      "codi": "1791788",
+      "preu_actual": 87.60,
+      "pvp_recomanat": null,
+      "informacio_general": {
+        "marca": "Tommy Hilfiger",
+        "model": "1791788",
+        "edicio": "Col·lecció Bank",
+        "genere": "Home",
+        "moviment": "Quars (Bateria)",
+        "resistencia_aigua": "50m Apte per dutxa"
+      },
+      "garantia": "24 mesos",
+      "mesures": {
+        "diametre": "45 mm",
+        "gruix": "10,5 mm"
+      },
+      "mes_informacio": {
+        "tipus": ["De moda"],
+        "calendari": "Sí",
+        "funcions_especials": ["Multifunció"]
+      },
+      "caixa_i_esfera": {
+        "color_caixa": "Platejat",
+        "color_esfera": "Blau",
+        "material_caixa": "Acer inoxidable",
+        "cristall": "Mineral",
+        "tipus_esfera": "Analògic",
+        "forma": "Rodona"
+      },
+      "corretja": {
+        "color": "Platejat",
+        "material": "Acer inoxidable Malla milanesa",
+        "contorn_max_canell": "195mm"
+      }
+    }
+  ]
+}

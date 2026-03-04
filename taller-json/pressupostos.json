@@ -1,0 +1,49 @@
+{
+  "pressupostos": [
+    {
+      "model": "Samsung Galaxy S25",
+      "preu": 799.99,
+      "moneda": "€",
+      "caracteristiques_principals": {
+        "pantalla": "6.2\" Dynamic AMOLED 2X (1080x2340)",
+        "processador": "Snapdragon 8 Elite (3 nm)",
+        "ram": "12 GB",
+        "emmagatzematge": "128 GB (ampliat fins a 512 GB)",
+        "camera": "50 MP principal + ultra-wide",
+        "bateria": "4000 mAh",
+        "sistema": "Android 15 + One UI 8",
+        "altres": "Resistència IP68, càrrega ràpida"
+      }
+    },
+    {
+      "model": "Apple iPhone 17",
+      "preu": 799,
+      "moneda": "€",
+      "caracteristiques_principals": {
+        "pantalla": "6.3\" Super Retina XDR OLED (2622x1206)",
+        "processador": "A19 chip (6 nuclis)",
+        "ram": "8 GB (aprox.)",
+        "emmagatzematge": "256 GB (base)",
+        "camera": "Sistema avançat de càmeres amb Dynamic Island",
+        "bateria": "Durada tot el dia + càrrega ràpida",
+        "sistema": "iOS 19",
+        "altres": "Ceramic Shield, Apple Intelligence"
+      }
+    },
+    {
+      "model": "Google Pixel 9 Pro",
+      "preu": 999,
+      "moneda": "€",
+      "caracteristiques_principals": {
+        "pantalla": "6.3\" Super Actua OLED (1280x2856)",
+        "processador": "Google Tensor G4",
+        "ram": "16 GB",
+        "emmagatzematge": "128 GB (ampliat fins a 1 TB)",
+        "camera": "50 MP triple amb IA avançada",
+        "bateria": "4700 mAh (fins a 24 hores)",
+        "sistema": "Android 14 (actualitzable)",
+        "altres": "Gemini IA integrada, 7 anys d’actualitzacions"
+      }
+    }
+  ]
+}
