@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="futbol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="jornada"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="jornada">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="partit"/>
+      </xs:sequence>
+      <xs:attribute name="num" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="partit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dia"/>
+        <xs:element ref="equip"/>
+        <xs:element ref="equip"/>
+      </xs:sequence>
+      <xs:attribute name="num" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dia" type="xs:string"/>
+  <xs:element name="equip">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nom"/>
+        <xs:element ref="resultat"/>
+        <xs:element ref="gols"/>
+      </xs:sequence>
+      <xs:attribute name="juga" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="local"/>
+            <xs:enumeration value="visitant"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nom" type="xs:string"/>
+  <xs:element name="resultat" type="xs:string"/>
+  <xs:element name="gols">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="jugador"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="jugador" type="xs:string"/>
+</xs:schema>

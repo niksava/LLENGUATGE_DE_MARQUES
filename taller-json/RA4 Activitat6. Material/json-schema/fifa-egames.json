@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FIFA eGames Final Match Schema",
+  "type": "object",
+  "properties": {
+    "Guanyador": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Partit": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "properties": {
+          "nom-equip": {
+            "type": "string",
+            "minLength": 1
+          },
+          "nick-players": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "gols": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "marcador": {
+                  "type": "string",
+                  "pattern": "^[0-9]+-[0-9]+$"
+                },
+                "minut": {
+                  "type": "string",
+                  "pattern": "^[0-9]{1,2}:[0-5][0-9]$"
+                },
+                "jugador": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "penal": {
+                  "type": "boolean"
+                }
+              },
+              "required": ["marcador", "minut", "jugador"],
+              "additionalProperties": false
+            }
+          },
+          "targetes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tipus": {
+                  "type": "string",
+                  "enum": ["groga", "roja"]
+                },
+                "minut": {
+                  "type": "string",
+                  "pattern": "^[0-9]{1,2}:[0-5][0-9]$"
+                },
+                "jugador": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": ["tipus", "minut", "jugador"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["nom-equip", "nick-players"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["Guanyador", "Partit"],
+  "additionalProperties": false
+}
