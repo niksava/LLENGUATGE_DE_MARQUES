@@ -1,0 +1,36 @@
+notes {
+  display: block;
+}
+
+assignatura {
+  display: block;
+  background-color: #00BFBF;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+assignatura[nom="Programació 1"]::before {
+  content: "Programació 1";
+  display: block;
+  font-weight: bold;
+}
+
+assignatura[nom="Bases de dades"]::before {
+  content: "Bases de dades";
+  display: block;
+  font-weight: bold;
+}
+
+alumne {
+  display: block;
+}
+
+nom {
+  display: inline;
+}
+
+nota {
+  display: inline;
+  font-weight: bold;
+}
