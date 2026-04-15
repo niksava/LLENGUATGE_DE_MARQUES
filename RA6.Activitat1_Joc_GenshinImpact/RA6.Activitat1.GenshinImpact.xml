@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joc nom="Genshin Impact" versio="5.4">
+    <regions>
+        <pais nom="Mondstadt" versio="1.0">
+            <caracteristica>El país de la llibertat</caracteristica>
+            <caracteristica>Similar a l'Europa medieval</caracteristica>
+            <caracteristica>Poder elemental del Vent</caracteristica>
+            <deu alias="Venti">Arconte Anemo</deu>           	
+        </pais>
+        <pais nom="Liyue" versio="1.0">
+            <caracteristica>Similar a la Xina medieval</caracteristica>
+            <caracteristica>Orografia molt montanyosa</caracteristica>
+            <caracteristica>Poder elemental de la Terra</caracteristica>
+            <deu alias="Zhongli">Rex Lapis</deu>
+        </pais>
+        <pais nom="Inazuma" versio="2.0">
+            <caracteristica>Busqueda de la immutabilitat</caracteristica>
+            <caracteristica>Similar a Japó medieval</caracteristica>
+            <caracteristica>Poder elemental de l'electricitat</caracteristica>
+            <deu alias="Eli">Shogun Raiden</deu>
+        </pais>
+        <pais nom="Sumeru" versio="3.0">
+            <caracteristica>País de selva i deserts</caracteristica>
+            <caracteristica>Similar a la selva amazònica i a Egipte</caracteristica>
+            <caracteristica>Poder elemental d'energia vegetal</caracteristica>
+            <deu alias="Nahida">Reina Menor Kusanali</deu>
+        </pais>
+        <pais nom="Fontaine" versio="4.0">
+            <caracteristica>País dels enginys mecànics</caracteristica>
+            <caracteristica>Zones aquatiques</caracteristica>
+            <caracteristica>Poder elemental de l'aigua</caracteristica>
+            <deu alias="Furina">Arconte Hydro</deu>
+        </pais>
+        <pais nom="Natlan" versio="5.0">
+            <caracteristica>País del foc i la competició</caracteristica>
+            <caracteristica>Fauna de dinosaures</caracteristica>
+            <caracteristica>Poder elemental del foc</caracteristica>
+            <deu alias="Mavuika">Arconte Pyro</deu>
+        </pais>
+    </regions>
+    <personatges>
+    	<personatge aconseguit="SI"><nom>Traveller1</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Sense país</pais><genere>Dona</genere><nivell>90</nivell></personatge>
+    	<personatge aconseguit="NO"><nom>Traveller2</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Sense país</pais><genere>Home</genere></personatge>
+        <tipus nom="Anemo">
+            <personatge aconseguit="SI"><nom>Venti</nom><estrelles>5</estrelles><arma>arc</arma><pais>Mondstadt</pais><genere>Home</genere><nivell>80</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Jean</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Mondstadt</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="NO"><nom>Linette</nom><estrelles>4</estrelles><arma>espasa</arma><pais>Snezhnaya</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="SI"><nom>Kazuha</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Inazuma</pais><genere>Home</genere><nivell>70</nivell></personatge>
+        </tipus>
+        <tipus nom="Geo">
+            <personatge aconseguit="SI"><nom>Zhongli</nom><estrelles>5</estrelles><arma>llança</arma><pais>Liyue</pais><genere>Home</genere><nivell>80</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Ningguang</nom><estrelles>4</estrelles><arma>catalitzador</arma><pais>Liyue</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="NO"><nom>Navia</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Fontaine</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="NO"><nom>Xilonen</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Natlan</pais><genere>Dona</genere></personatge>
+        </tipus>
+	<tipus nom="Electro">
+            <personatge aconseguit="SI"><nom>Shogun Raiden</nom><estrelles>5</estrelles><arma>llança</arma><pais>Inazuma</pais><genere>Dona</genere><nivell>90</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Yae Miko</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Inazuma</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="SI"><nom>Razor</nom><estrelles>4</estrelles><arma>mandoble</arma><pais>Mondstadt</pais><genere>Home</genere><nivell>50</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Kuki Shinobu</nom><estrelles>4</estrelles><arma>espasa</arma><pais>Inazuma</pais><genere>Dona</genere></personatge>
+        </tipus>
+        <tipus nom="Pyro">
+	    <personatge aconseguit="NO"><nom>Diluc</nom><estrelles>5</estrelles><arma>mandoble</arma><pais>Mondstadt</pais><genere>Home</genere></personatge>
+            <personatge aconseguit="SI"><nom>Bennet</nom><estrelles>4</estrelles><arma>espasa</arma><pais>Mondstadt</pais><genere>Home</genere><nivell>60</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Lyney</nom><estrelles>5</estrelles><arma>arc</arma><pais>Snezhnaya</pais><genere>Home</genere></personatge>
+            <personatge aconseguit="SI"><nom>Xiangling</nom><estrelles>4</estrelles><arma>llança</arma><pais>Liyue</pais><genere>Home</genere><nivell>80</nivell></personatge>
+            <personatge aconseguit="SI"><nom>Mavuika</nom><estrelles>5</estrelles><arma>mandoble</arma><pais>Natlan</pais><genere>Dona</genere><nivell>60</nivell></personatge>
+        </tipus>
+        <tipus nom="Cryo">
+            <personatge aconseguit="SI"><nom>Rosalia</nom><estrelles>4</estrelles><arma>llança</arma><pais>Mondstadt</pais><genere>Dona</genere><nivell>50</nivell></personatge>
+            <personatge aconseguit="SI"><nom>Qiqi</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Liyue</pais><genere>Home</genere><nivell>90</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Shenhe</nom><estrelles>5</estrelles><arma>llança</arma><pais>Liyue</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="NO"><nom>Wriothesley</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Fontaine</pais><genere>Home</genere></personatge>
+        </tipus>
+        <tipus nom="Dendro">
+            <personatge aconseguit="SI"><nom>Nahida</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Sumeru</pais><genere>Dona</genere><nivell>80</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Kirara</nom><estrelles>4</estrelles><arma>catalitzador</arma><pais>Inazuma</pais><genere>Dona</genere></personatge>
+            <personatge aconseguit="SI"><nom>Baizhu</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Liyue</pais><genere>Home</genere><nivell>70</nivell></personatge>
+            <personatge aconseguit="NO"><nom>Kinich</nom><estrelles>5</estrelles><arma>mandoble</arma><pais>Natlan</pais><genere>Home</genere></personatge>
+        </tipus>
+        <tipus nom="Hydro">
+        <personatge aconseguit="NO"><nom>Mona</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Mondstadt</pais><genere>Dona</genere></personatge>
+         <personatge aconseguit="SI"><nom>Furina</nom><estrelles>5</estrelles><arma>espasa</arma><pais>Fontaine</pais><genere>Dona</genere><nivell>70</nivell></personatge>
+         <personatge aconseguit="NO"><nom>Neuvillete</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Fontaine</pais><genere>Home</genere></personatge>
+         <personatge aconseguit="NO"><nom>Kokomi</nom><estrelles>5</estrelles><arma>catalitzador</arma><pais>Inazuma</pais><genere>Dona</genere></personatge>
+        </tipus>
+    </personatges>
+</joc>
